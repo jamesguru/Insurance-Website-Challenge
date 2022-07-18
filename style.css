@@ -362,4 +362,106 @@ body{
     align-items: center;
 
     justify-content: space-evenly;
+
+
+
 }
+
+.newsletter{
+
+
+    background-image: linear-gradient(to right, rgb(7, 7, 87),#b00cf4);
+
+    height: 300px;
+
+    margin: 50px;
+
+    display: flex;
+
+    align-items: center;
+
+
+    justify-content: space-between;
+}
+
+
+.newsletter-header{
+
+    color: #fbfcfb;
+
+
+    margin-left: 50px;
+
+    width:  400px;
+
+
+}
+
+
+.newsletter-input{
+
+    background-color: #fbfcfb;
+
+    width: 250px;
+
+
+    display: flex;
+
+
+    height: 60px;
+
+
+    width: 30%;
+
+
+    border-radius: 5px;
+
+
+    margin-right: 100px;
+}
+
+.newsletter-input input{
+
+    border: none;
+
+    outline: none;
+
+
+    padding: 10px;
+
+
+    font-size: 20px;
+
+    font-weight: bolder;
+
+
+    margin-right: 50px;
+
+
+    display: flex;
+
+    justify-content: flex-end;
+
+
+
+}
+
+.newsletter-input button{
+
+
+    border: none;
+
+    background-color: #23a6f0;
+
+
+    color: #fbfcfb;
+
+
+    font-size: 20px;
+
+
+    padding-right: 9px;
+
+    margin: 5px;
+}
+
