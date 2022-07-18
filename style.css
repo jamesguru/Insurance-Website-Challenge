@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+body{
+
+    margin: 0px;
+
+    padding: 0px;
+
+    font-family: 'Montserrat';
+}
+
+
+.header{
+
+    background: url("./images/hero.png");
+
+    background-repeat: no-repeat;
+
+    object-fit: contain;
+
+
+    height: 100vh;
+
+    width: 100vw;
+
+
+    color: #fbfcfb;
+
+
+    margin-bottom: -150px;
+}
+
+.head{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-evenly;
+
+    color: #fbfcfb;
+}
+
+
+.links span{
+
+    margin: 20px;
+}
+
+.link-item{
+
+    margin-right: 30;
+}
+
+.right-side button{
+
+    border: none;
+
+    background-color: #23a6f0;
+
+    color:  #fbfcfb;
+
+
+    padding: 10px;
+
+  
+    margin-left: 20px;
+}
+
+
+.header-main-section{
+
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+    flex-direction: column;
+
+    margin: 150px auto;
+
+
+    width: 60%;
+}
+
+.header-main-section-head{
+
+    font-size: 54px;
+
+    text-align: center;
+}
+
+.header-main-section-desc{
+
+    font-size: 25px;
+
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.header-main-section-btn button:first-child{
+
+
+    background-color: #23a6f0;
+
+    border-radius: 15px;
+
+    font-size: 18px;
+
+    border: none;
+
+    padding: 15px;
+
+
+    color: #fbfcfb;
+
+
+
+}
+
+.header-main-section-btn button:nth-child(2){
+    font-size: 18px;
+
+    margin-left: 20px;
+
+    color: #fbfcfb;
+
+    padding: 15px;
+
+    border: 2px solid #fbfcfb;
+
+    border-radius: 15px;
+
+    background-color: transparent;
+
+    font-weight: bold;
+}
+
+
+.options{
+
+
+    display: flex;
+
+    margin: 0px auto;
+
+
+    align-items: center;
+
+    justify-content: space-evenly;
+}
+
+
+.option-item{
+
+
+    background-color: #fbfcfb;
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 350px;
+
+    padding: 30px;
+
+    height: 350px;
+
+
+}
+
+
+.option-item:nth-child(3){
+
+
+    background-color: #23a6f0;
+
+    color: #fbfcfb;
+}
+
+.option-item h1{
+
+    color: #252b42;
+
+
+}
+
+.option-item span{
+
+
+    font-size: 18px;
+
+
+}
+
+.benefits{
+
+
+    display: flex;
+
+
+
+
+
+    align-items: center;
+
+
+    justify-content: space-evenly;
+
+
+    margin: 200px 100px;
+}
+
+
+.benefit-item{
+
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 10px;
+}
+
+
+.benefit-item h1{
+
+    color: #252b42;    
+}
+
+
+.benefit-item span{
+
+
+    font-size: 20px;
+}
+
+
+.industry{
+
+
+    background-color: #fbfcfb;
+
+    height:100vh;
+
+
+    
+
+    padding: 30px;
+}
+
+.industry-header{
+
+
+    color: #252b42;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.industry-description{
+
+
+    color: #252b42;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    font-size: 22px;
+
+    width: 60%;
+
+    margin: 100px 250px;
+
+
+}
