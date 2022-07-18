@@ -1,3 +1,17 @@
+
+/*   
+
+#252b42
+#23a6f0
+rgb(7, 7, 87)
+#b00cf4
+#fbfcfb
+
+
+
+*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
 body{
 
@@ -284,4 +298,68 @@ body{
     margin: 100px 250px;
 
 
+}
+
+.client{
+
+
+    display: flex;
+
+
+    align-items: center;
+
+    margin: 50px;
+
+    justify-content: space-evenly;
+}
+
+.client-item{
+
+
+    height: 450;
+
+    width: 300;
+
+
+    margin:30px;
+
+
+    padding: 20px;
+
+    border: 2px solid black;
+
+
+    border-radius: 10px;
+}
+
+.client-desc{
+
+    font-size: 18px;
+
+    margin: 30px;
+
+    
+
+
+}
+
+.ratings{
+
+
+    margin: 30px;
+}
+
+.sponsors{
+
+
+    background-color: #fbfcfb;
+
+    margin: 400px auto;
+
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-evenly;
 }
