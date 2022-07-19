@@ -65,19 +65,48 @@ body{
     margin-right: 30;
 }
 
+
+.right-side{
+
+    display: flex;
+
+    align-items: center;
+}
+
 .right-side button{
 
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
     border: none;
+
+    border-radius: 5px;
 
     background-color: #23a6f0;
 
     color:  #fbfcfb;
 
 
+    font-size: 13px;
+
+
+   width: 200px;
+
     padding: 10px;
 
   
     margin-left: 20px;
+}
+
+.right-side-icon{
+
+
+    font-size: 18px;
+
 }
 
 
@@ -465,3 +494,422 @@ body{
     margin: 5px;
 }
 
+
+.pricing{
+
+
+    background-color: #fbfcfb;
+}
+
+.pricing-header{
+
+
+    text-align: center;
+
+    width: 30%;
+
+
+    margin: 100px auto;
+}
+
+
+.pricing-header h1{
+
+    color: #252b42;
+}
+
+
+.pricing-header p{
+
+
+    text-align: center;
+
+
+    font-size: 14px;
+
+    
+}
+
+
+.pricing-card{
+
+    margin-top: 50px;
+
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+    
+}
+
+.pricing-card-item{
+
+
+    width: 300px;
+
+    height: 500px;
+
+    border-radius: 10px;
+
+    border: 2px solid #23a6f0;
+}
+
+.pricing-card-item:nth-child(2){
+
+    padding-top: 70px;
+
+
+    background-color: #252b42;
+
+    border: none;
+
+
+}
+
+
+.pricing-card-item{
+
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    padding: 50px;
+
+
+}
+
+
+.pricing-card-item h1{
+
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #252b42;
+}
+
+.pricing-card-item span{
+
+    display: flex;
+
+    width: 200px;
+
+    text-align: center;
+
+    margin: auto 50px;
+}
+
+.price-dollar{
+
+    display: flex;
+
+    align-items: center;
+
+    
+
+
+    margin: auto 50px;
+}
+
+.price-dollar-header{
+
+
+    font-weight: 900;
+
+    font-size: 35px;
+
+    margin-right: 10px;
+
+    color: #23a6f0;
+
+}
+
+.price-dollar-price p:first-child{
+
+
+    font-weight: 900;
+
+    color: #23a6f0;
+
+
+}
+
+.price-dollar-price p:last-child{
+
+    color: #23a6f0;
+
+    opacity: 0.6;
+}
+
+
+
+.price-desc-item{
+
+    display: flex;
+
+    align-items: center;
+
+    margin-bottom: 20px;
+
+    font-weight: 500;
+}
+
+.price-desc-item p{
+
+    font-weight: 700;
+
+    width: 100%;
+}
+
+.check-icon{
+
+    height: 20px;
+
+    border-radius: 50%;
+
+    width: 20px;
+
+    padding: 5px;
+
+    background-color: #23a6f0;
+
+    color: #fbfcfb;
+
+    font-size: 14px;
+}
+
+
+.price-desc-item:nth-child(4) .check-icon{
+
+    background-color: #AAA;
+}
+
+.price-desc-item:nth-child(5) .check-icon{
+
+    background-color: #AAA;
+}
+
+.price-desc-item:nth-child(2) p{
+
+  color: #fbfcfb;
+
+}
+
+.btn-price{
+
+    width: 300px;
+
+    background-color: #23a6f0;
+
+    border-radius: 5px;
+
+    font-weight: 25px;
+
+    color: #fbfcfb;
+
+    border: none;
+
+    padding: 10px;
+
+    font-weight: 900;
+}
+
+.reach{
+
+    background-color: #252b42;
+
+    margin-top: 100px;
+
+    height: 100vh;
+
+    width: 100vw;
+
+    display: flex;
+
+    margin-bottom: -300px;
+
+    
+}
+
+.reach-desc{
+
+    flex: 1;
+
+    margin: 100px 300px;
+
+
+    width: 150px;
+
+    color: #fbfcfb;
+
+    width: 20%;
+
+   
+   
+}
+
+.reach-image{
+
+    flex: 1;
+
+    height: 200px;
+
+    width: 200px;
+
+    margin: 100px;
+
+
+    
+}
+
+
+.appointment{
+
+    height: 700px;
+
+    width: 60vw;
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: #fbfcfb;
+
+    margin: 0px 300px;
+
+
+    display: flex;
+
+    
+
+
+}
+
+.appointment-image{
+
+    height: 100%;
+
+    width: 100%;
+
+    flex: 1;
+}
+
+.appointment-image img{
+
+    object-fit: cover;
+
+    height: 100%;
+
+    width: 100%;
+
+
+}
+
+.appointment-desc{
+
+    flex: 3;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+.appointment-desc h1{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    color: #252b42;
+
+
+    font-size: 25px;
+
+    margin-top: 20px;
+}
+
+.input-description{
+
+    display: flex;
+
+    flex-direction: column;
+
+
+    margin: 20px 50px;
+
+    color: #AAA;
+}
+
+
+.appointment-btn{
+
+    margin: 50px;
+
+    padding: 15px;
+
+    border: none;
+
+    background-color: #23a6f0;
+
+    color: #fbfcfb;
+
+    font-weight: bolder;
+
+    border-radius: 5px;
+}
+
+.input-description input{
+
+    outline: none;
+
+    padding: 20px;
+
+    border-radius: 5px;
+
+    color: #AAA;
+
+    opacity: 0.6;
+}
+
+.consult{
+
+    margin: 200px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    columns: #333;
+}
+
+.consult-btn button{
+
+    padding: 10px;
+
+    border: none;
+
+    background-color: #23a6f0;
+
+    color: #fbfcfb;
+
+    font-weight: 900;
+
+    border-radius: 5px;
+}
