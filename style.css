@@ -42,36 +42,8 @@ body{
 
     margin-bottom: -150px;
 
-    position: relative;
-
     
-}
-
-.menu-bar{
-
-    height: 100vh;
-
-    background-color: #fbfcfb;
-
-    position: absolute;
-
-    top: 40px;
-
-    left: 0;
-
-
-    z-index: 999;
-
-
-   transform: scaleX(-300px);
-
-    transition: all 1s ease;
-
-
-
-    width: 300px;
-
-    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    
 }
 
 
@@ -166,6 +138,8 @@ body{
 
 
     width: 60%;
+
+    z-index: 999;
 }
 
 .header-main-section-head{
