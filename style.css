@@ -1101,13 +1101,29 @@ body{
 
 
         margin-bottom: 100px;
+
+        position: relative;
     }
 
 
     .links{
 
 
-        display:none;
+       position: absolute;
+
+       top: 60px;
+
+       width: 100%;
+
+       display: flex;
+
+       align-items: center;
+
+       justify-content: space-evenly;
+
+       font-size: 12px;
+
+       
     }
 
 
@@ -1164,12 +1180,18 @@ body{
     width: 50%;
 
     flex: 1;
+
+
+    margin: 20px;
+    font-size: 14px;
 }
 
 .reach-desc h1{
 
 
     width: 100%;
+
+    font-size: 20px;
 }
 
 
@@ -1179,6 +1201,10 @@ body{
     width: 50%;
 
     flex: 1;
+
+    margin: 20px;
+
+
 }
 
 
@@ -1286,6 +1312,8 @@ body{
 
     justify-content: center;
 
+    margin: 20px;
+
 
 }
 
@@ -1294,6 +1322,17 @@ body{
 
     margin: 20px;
 }
+
+
+
+.appointment{
+
+
+    margin: 50px;
+
+
+    width: 100%;
+}
     
 
     
@@ -1301,6 +1340,23 @@ body{
     
 
 }
+
+
+@media screen and (max-width: 300px){
+
+.appointment{
+
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+}
+
+
+
 
 
 @media screen and (min-width: 600px){
@@ -1408,6 +1464,14 @@ body{
         margin: 50px;
     }
 
+    .pricing-header{
+
+
+        margin: 40px;
+
+        width: 100%;
+    }
+
 
     .pricing-header p{
 
@@ -1426,6 +1490,71 @@ body{
         margin: 20px;
 
        
+    }
+
+    .consult{
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        margin: 0px;
+
+        width: 100%;
+    }
+
+
+    .consult button{
+
+        width: 200%;
+    }
+
+    .consult-desc{
+
+        width: 80%;
+
+        flex: 1;
+
+        margin-bottom: 30px;
+    }
+
+    .consult-desc h1{
+
+
+        width: 100%;
+
+        font-size: 25px;
+    }
+
+    .consult-desc button{
+
+        width: 70%;
+    }
+
+    .footer-upper{
+
+
+        margin-top: 50px;
+
+
+        display: flex;
+
+        flex-direction: column;
+
+
+    }
+
+    
+
+    .footer-lower-item{
+
+        display: flex;
+
+        flex-direction: column;
+
+        margin: 20px;
     }
     
     
