@@ -140,6 +140,8 @@ body{
     width: 60%;
 
     z-index: 999;
+
+
 }
 
 .header-main-section-head{
@@ -334,10 +336,6 @@ body{
     background-color: #fbfcfb;
 
     height:100vh;
-
-
-    
-
     padding: 30px;
 }
 
@@ -443,7 +441,7 @@ body{
 .sponsors{
 
 
-    background-color: #fbfcfb;
+    
 
     margin: 100px auto;
 
@@ -1089,4 +1087,346 @@ body{
 
 
 
+}
+
+
+/*MOBILE DESIGN */
+
+
+@media screen and (max-width: 1200px){
+
+
+
+    .header{
+
+
+        margin-bottom: 100px;
+    }
+
+
+    .links{
+
+
+        display:none;
+    }
+
+
+    .header-main-section-desc{
+
+
+        margin: 20px auto;
+    }
+    
+
+    .client-item{
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        margin: 30px;
+    }
+
+
+    .pricing-card-item{
+
+
+        width: 250px;
+
+        
+       
+    }
+
+
+   
+    
+    
+}
+
+
+@media screen and (max-width: 1500px){
+
+.reach{
+
+    margin-bottom: 50px;
+
+   
+
+
+
+}
+
+
+.reach-desc{
+
+    width: 50%;
+
+    flex: 1;
+}
+
+.reach-desc h1{
+
+
+    width: 100%;
+}
+
+
+.reach-image{
+
+
+    width: 50%;
+
+    flex: 1;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 1024px){
+
+    .benefit-item span{
+
+        font-size: 15px;
+    }
+
+
+    .industry-description{
+
+        font-size: 15px;
+
+        width: 100%;
+
+        margin: 30px  auto;
+
+
+    }
+
+
+    .industry{
+
+
+        height: auto;
+
+        
+    }
+
+    .client{
+
+        display: flex;
+
+        flex-direction: column;
+    }
+
+
+
+    .newsletter{
+
+
+       display: flex;
+
+       flex-direction: column;
+
+
+       justify-content: center;
+
+        width: 100%;
+
+        margin: 0px;
+
+        height: 100vh;
+
+
+        
+    }
+
+    .newsletter-header{
+
+
+        width: 80%;
+
+       
+    }
+
+   .newsletter-input{
+
+
+   width: 80%;
+
+    margin: 50px;
+
+
+    position: relative;
+    
+
+   }
+
+   .newsletter-input button{
+
+    position: absolute;
+
+    top: 0px;
+
+    right: 0px;
+
+    padding: 15px;
+   }
+
+   
+    
+.pricing-card{
+
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+
+}
+
+
+.pricing-card-item{
+
+    margin: 20px;
+}
+    
+
+    
+
+    
+
+}
+
+
+@media screen and (min-width: 600px){
+
+    .sponsors img{
+
+        height: 100px;
+
+        width: 100px;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 600px){
+
+
+    
+
+
+    .right-side button{
+
+
+        width: 100px;
+
+        font-size: 9px;
+    }
+
+    .header-main-section{
+
+
+       
+
+        width: 100%;
+    }
+    
+    .header-main-section-head{
+
+        font-size: 34px;
+
+        margin: 10px;
+    }
+
+
+    .header-main-section-desc{
+
+
+
+        font-size: 14px;
+
+        margin: 10px;
+    }
+
+    .options{
+
+
+        display: flex;
+
+        flex-direction: column;
+
+
+        justify-content: center;
+    }
+
+
+    .option-item{
+
+        width: 100%;
+    }
+
+
+    .benefits{
+
+
+        display: flex;
+
+        flex-direction: column;
+
+
+        margin: 50px 50px;
+
+
+        width: 80%;
+
+        justify-content: center;
+    }
+
+
+    .sponsors{
+
+        display: flex;
+
+        flex-direction: column;
+
+        height: auto;
+
+        padding: 20px;
+    }
+
+    .sponsors img{
+
+        margin: 50px;
+    }
+
+
+    .pricing-header p{
+
+
+        width: 100%;
+
+
+
+
+    }
+    .pricing-card-item{
+
+
+        width: 70%;
+
+        margin: 20px;
+
+       
+    }
+    
+    
 }
