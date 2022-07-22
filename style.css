@@ -853,7 +853,7 @@ body{
 
     height: 700px;
 
-    width: 60vw;
+    width: 50vw;
     display: flex;
 
     align-items: center;
@@ -948,13 +948,43 @@ body{
     border-radius: 5px;
 }
 
+
+label{
+
+    font-weight: 500;
+}
+
+.input-desc{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    border: 1px solid #AAA;
+
+    padding: 15px;
+
+    border-radius: 5px;
+
+    background-color: #fbfcfb;
+
+
+}
+
+.input-desc ion-icon{
+
+    font-size: 18px;
+}
+
 .input-description input{
 
     outline: none;
 
-    padding: 20px;
+    border: none;
 
-    border-radius: 5px;
+   
 
     color: #AAA;
 
@@ -1092,7 +1122,7 @@ body{
 }
 
 
-/*MOBILE DESIGN */
+/*MOBILE DESIGN  AND TABLET DESIGN*/
 
 
 @media screen and (max-width: 1200px){
@@ -1171,6 +1201,8 @@ body{
 
     margin: 0px;
 }
+
+
 .benefit-item{
 
     display: flex;
@@ -1186,6 +1218,9 @@ body{
 
 
 }
+
+
+
 
 
 .reach-desc{
@@ -1218,6 +1253,13 @@ body{
     margin: 20px;
 
 
+}
+
+.appointment{
+
+    width: 80%;
+
+    margin: 50px;
 }
 
 
@@ -1398,6 +1440,12 @@ width: 80%;
     font-size: 15px;
 }
 
+
+.consult-desc h1{
+
+    font-size: 25px;
+}
+
 .consult button{
 
 
@@ -1463,6 +1511,7 @@ width: 80%;
     }
 
 
+    
 
 }
 
@@ -1508,6 +1557,27 @@ width: 80%;
         text-align: center;
     }
 
+    .header-main-section-btn{
+
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        
+
+    }
+
+
+    .header-main-section-btn button{
+
+        margin: 10px;
+
+        border-radius: 0%;
+    }
+
     .options{
 
 
@@ -1534,7 +1604,7 @@ width: 80%;
         flex-direction: column;
 
 
-        margin: 50px 50px;
+        margin: 100px 50px;
 
 
         width: 80%;
@@ -1587,6 +1657,30 @@ width: 80%;
        
     }
 
+    .reach{
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+    }
+
+
+    .reach-desc{
+
+        width: 100%;
+
+        margin: 0px;
+
+
+    }
+
+    .reach-image{
+
+        width: 100%;
+    }
+
     .consult{
 
         display: flex;
@@ -1604,6 +1698,8 @@ width: 80%;
     .consult button{
 
         width: 200%;
+
+        flex: 1;
     }
 
     .consult-desc{
@@ -1638,6 +1734,8 @@ width: 80%;
 
         flex-direction: column;
 
+        flex-wrap: wrap;
+
 
     }
 
@@ -1653,12 +1751,36 @@ width: 80%;
     }
 
 
-.footer-lower-item{
+    .footer-lower-item{
 
 
 
-    margin: 20px;
-}
+        margin: 20px;
+    }
+
+
+    .head h2{
+
+        font-size: 15px;
+    }
+
+    .header-main-section-btn{
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+    }
+
+   .appointment{
+
+    margin: 5px;
+   }
+
+
+
     
+        
     
 }
